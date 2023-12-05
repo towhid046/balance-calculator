@@ -5,13 +5,16 @@ import IncomeExpense from "./components/IncomeExpense";
 import Title from "./components/Title";
 import TransactionList from "./components/TransactionList";
 
+
 function App() {
+
+
 	return (
 		<>
 			<Title />
 			<div className="container">
 				<Balance />
-				<IncomeExpense />
+				<IncomeExpense/>
 				<TransactionList />
 				<AddTransaction />
 			</div>
